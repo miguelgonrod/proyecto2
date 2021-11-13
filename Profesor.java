@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Profesor extends Usuarios{
     private String name;
@@ -8,7 +8,7 @@ public class Profesor extends Usuarios{
     public void menu(){
         int opcion=0;
         while(opcion!=4){
-            System.out.println("Que opcion deseas realizar?")
+            System.out.println("Que opcion deseas realizar?");
         }
     }
-}
+}*/

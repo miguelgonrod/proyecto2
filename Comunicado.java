@@ -1,4 +1,4 @@
-public class Comunicado{
+/*public class Comunicado{
     private String name;
     private String Cuerpo;
     public Comunicado(String name, String cuerpo){
@@ -14,4 +14,4 @@ public class Comunicado{
     public String GetCuerpo(){
         return cuerpo;
     }
-}
+}*/

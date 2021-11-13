@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Usuarios {
     Scanner myObj = new Scanner(System.in);
     private String password;
@@ -11,4 +11,4 @@ public class Usuarios {
         System.out.println("Ingrese la contraseña: ");
         password = myObj.nextLine();
     }
-}
+}*/

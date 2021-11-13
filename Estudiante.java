@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Estudiante extends Usuarios{
     Scanner myObj = new Scanner(System.in);
@@ -24,4 +24,4 @@ public class Estudiante extends Usuarios{
             }
         }
     }
-}
+}*/

@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 public class Asignacion{
     private ArrayList<Entrega> entregas=new ArrayList<Entrega>();
     private int id;
@@ -6,4 +6,4 @@ public class Asignacion{
     private String descripcion;
     private static int idGeneral;
     
-}
+}*/
