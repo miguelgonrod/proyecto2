@@ -1,31 +1,38 @@
 import java.util.Scanner;
-
-import org.w3c.dom.NamedNodeMap;
 public class Usuarios {
     Scanner myObj = new Scanner(System.in);
     private String password;
     private int rol;
     private String name;
     private boolean estado;
-    public Usuarios(){}
-    public Usuarios(String name, String password, int rol){
-        this.name = name;
-        this.password= password;
-        this.rol = rol;
+    public Usuarios(String password, String name, int rol){
+        this.password=password;
+        this.name=name;
+        this.rol=rol;
+        estado=true;
     }
-    public void login(){
-        System.out.println("Ingrese el nombre de usuario: ");
-        name = myObj.nextLine();
-        System.out.println("Ingrese la contraseña: ");
-        password = myObj.nextLine();
+    public void setName(String name){
+        this.name=name;
     }
-    public String getUsername(){
+    public void setPassword(String password){
+        this.password=password;
+    }
+    public void setRol(int rol){
+        this.rol=rol;
+    }
+    public void setEstado(boolean estado){
+        this.estado=estado;
+    }
+    public String getName(){
         return name;
     }
     public String getPassword(){
-        return password;
+        return name;
     }
-    public int getRole(){
+    public int getRol(){
         return rol;
+    }
+    public boolean getEstado(){
+        return estado;
     }
 }

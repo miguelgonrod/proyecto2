@@ -1,4 +1,4 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -27,4 +27,4 @@ public class Entrega{
     public void anadirComentario(Comunicado comentario){
         comentarios.add(comentario);
     }
-}*/
+}
